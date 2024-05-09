@@ -167,6 +167,6 @@ def upload_tables():
         # return "success"
     return  "Error with table extraction", 500
 
-
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=22)
+
